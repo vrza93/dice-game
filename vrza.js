@@ -10,4 +10,4 @@ if (randomNumber1 > randomNumber2) {
         document.querySelector("h1").textContent="Player 2 WON !"
 } else {
     document.querySelector("h1").textContent="DRAW !"
-}
+};
