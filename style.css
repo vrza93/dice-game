@@ -64,3 +64,39 @@ h3 {
     font-weight: bold;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+    footer {
+        font-size: 1.3rem;
+    }
+    .container {
+        width: 100%;
+    }
+    .footer-span {
+        font-size: 1.3rem;
+    }
+    img {
+        width: 40%;
+        display: inline-block;
+    }
+    .dice {
+        text-align: center;
+        display: inline-block;
+    }
+    p {
+        font-family: 'Indie Flower', cursive;
+        font-size: 1.8rem;
+        color: blue;
+        font-weight: bolder;
+    }
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Lobster', cursive;
+        text-shadow: 5px 0 #232931;
+        color: rgb(240, 128, 128);
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+  }
